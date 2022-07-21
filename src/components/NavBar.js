@@ -45,7 +45,7 @@ function NavBar(){
       >
         Login
       </NavLink>
-      {/* <NavLink to="/signup"
+       <NavLink to="/signup"
         exact
         style={linkStyles}
         activeStyle={{
@@ -63,40 +63,6 @@ function NavBar(){
       >
         Messages
       </NavLink>
-  ) */}
   </div>)
 }
-// function Signup() {
-//  return (
-//   <h1>This is the Signup page</h1>
-//  );
-//  }
-//  function Messages(){
-//   return (
-//     <h1>This is the message component rendered</h1>
-//   );
-//  }
-
-// ReactDOM.render(
-// <BrowserRouter>
-// <NavBar />
-// <Switch>
-//   <Route path="/about" >
-//     <About />
-//   </ Route>
-//   <Route path="/login">
-//     <Login />
-//   </Route>
-//   <Route exact path="/">
-//     <Home />
-//   </Route>
-//   <Route exact path="/signup">
-//     <Signup />
-//   </Route>
-//   <Route exact path="/messages">
-//     <Messages />
-//   </Route>
-//   </Switch>  
-//   <NavBar /> 
-// </BrowserRouter>, document.getElementById("root"));
 export  default NavBar
